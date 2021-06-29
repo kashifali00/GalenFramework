@@ -1,0 +1,54 @@
+{
+  "testId" : "1-home-logo-main-title-here",
+  "name" : "Home Logo main title here",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Home LOGO single test title here",
+      "status" : "info",
+      "time" : 1624971475706,
+      "includedTags" : [ "desktop_HomeLogo" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "C:\\Users\\KashifAli\\IdeaProjects\\Gallen_framework\\src\\test\\java\\specs\\home.gspec",
+          "lineNumber" : 7
+        },
+        "objects" : [ {
+          "name" : "header-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\KashifAli\\IdeaProjects\\Gallen_framework\\src\\test\\java\\specs\\home.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "left-of header-text 22px",
+            "meta" : [ {
+              "from" : {
+                "object" : "header-logo",
+                "edge" : "right"
+              },
+              "to" : {
+                "object" : "header-text",
+                "edge" : "left"
+              },
+              "expectedDistance" : "22px",
+              "realDistance" : "22px"
+            } ],
+            "highlight" : [ "header-logo", "header-text" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header-text" : {
+          "area" : [ 287, 20, 609, 39 ]
+        },
+        "header-logo" : {
+          "area" : [ 217, 13, 48, 48 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,10 @@
+# This is my first gspec file
+
+@objects
+    header-logo     #header-logo
+    header-text     #header h1
+
+= Header =
+    header-logo:
+        left-of header-text 22px
+
